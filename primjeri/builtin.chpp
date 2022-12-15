@@ -1,0 +1,5 @@
+a = ulaz()
+ispis( a * 2, '\n' )
+ispis( broj( a ) * 2, '\n' )
+
+ispis( vel(a) )

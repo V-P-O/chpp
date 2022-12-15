@@ -1,0 +1,29 @@
+l = []
+
+ispis("Unesi broj elemenata: ")
+n = broj(ulaz())
+
+za i = 0, i<n, i=i+1{
+	ispis('Unesi element broj ',i+1,' ')
+	dodaj(l,broj(ulaz()))
+}
+
+b = 1
+dok je b{
+	b = 0
+	za i = 0, i<vel(l)-1, i=i+1{
+
+		ako l[i]>l[i+1]{
+
+			x = l[i]
+			l[i] = l[i+1]
+			l[i+1] = x
+			b = 1
+
+		}
+	}
+}
+ispis('\n')
+za i = 0, i < vel(l), i=i+1{
+	ispis(l[i], ' ')
+}

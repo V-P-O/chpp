@@ -1,0 +1,9 @@
+za i=0, i<5, i=i+1 {
+	ispis(i, '\n')
+}
+a = 8
+dok je 1 {
+	ispis(a)
+	ako a == 5 prekid
+	a = a - 1
+}

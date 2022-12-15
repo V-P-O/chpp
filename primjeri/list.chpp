@@ -1,0 +1,15 @@
+L = [ 1, 2, 3, "D", [5, 6] ]
+ispis(L, '\n')
+ispis( L[1] * L[4][0] , '\n' )
+
+dodaj(L, 9)
+ispis(L, '\n')
+ukloni(L)
+ispis(L, '\n')
+ukloni(L, 1)
+ispis(L, '\n')
+umetni(L[3], 0, "umetnuto")
+ispis(L, '\n\n')
+
+ispis(L * 2, '\n' )
+ispis(L + [5, 5, 0] )

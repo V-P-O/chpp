@@ -1,0 +1,4 @@
+ispis( "pozdrav svijetu", '\n' )
+ispis( 'reci \'muu\' \n' )
+ispis( "Abc" * 3 , "\n" )
+ispis( "Č" + '++' )

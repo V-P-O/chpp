@@ -1,0 +1,6 @@
+funkcija fib(x){
+	ako x == 0 ILI x == 1 vrati x
+	vrati fib(x-1)+fib(x-2)
+}
+
+ispis( fib( broj( ulaz() ) ) )

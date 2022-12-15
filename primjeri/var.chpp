@@ -1,0 +1,7 @@
+var1 = 5.5
+_A_ = "Abc"
+Č123 = 3
+
+ispis( _A_ * Č123 )
+ispis( var1 + Č123 , '\n' )
+ispis("done...")

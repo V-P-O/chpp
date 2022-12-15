@@ -1,0 +1,9 @@
+ako 1 == 1{
+	ispis('Istina')
+}
+inače {
+	ispis('Laž')
+}
+ispis('\n')
+ako NE 4 < 10 ispis('Istina')
+inače ispis('Laž')

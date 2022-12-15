@@ -1,0 +1,6 @@
+funkcija zbroj(a, b){
+	c = a + b
+	vrati c
+}
+
+ispis( zbroj(4, 8) )
